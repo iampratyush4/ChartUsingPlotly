@@ -15,6 +15,7 @@ ticker = 'AAPL'
 data = yf.download(ticker, start='2023-01-01', end='2023-04-01')
 
 # Calculate Heikin Ashi
+
 ha_data = calculate_heikin_ashi(data)
 
 # Plot with Plotly
